@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
 body {
-    background-image: url(img/evento.jpg);
+    background-image: url(img/evento_real.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    font-family: "Indie Flower", cursive;
+    font-family: "Nixie One", system-ui;
 }
 
 main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
-    padding: 40px;
+    gap: 300px;
+    padding: 70px 60px 60px 60px;
     
 }
 .titulos{
     display: flex;
     flex-direction: column;
+    gap: 100px;
 }
 
 .titulos h1{
-    font-weight: 800;
+    font-weight: 500;
     font-size: 100px;
 }
 .titulos h3{
@@ -43,7 +43,7 @@ main{
 }
 
 .formulario form{
-    width: 80%;
+    width: 85%;
     background-color: #391a04;
     display: flex;
     flex-direction: column;
@@ -56,11 +56,11 @@ main{
 
 .formulario p{
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .formulario label{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .formulario input{
@@ -80,5 +80,7 @@ main{
     color: #391a04;
     border-radius: 15px;
     border-style: none;
+    font-family: "Nixie One", system-ui;
+    font-weight: 700;
 }
 
